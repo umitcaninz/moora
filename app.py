@@ -5,6 +5,8 @@ import numpy as np
 def main():
     st.title("Moora Yöntemi ile Karar Verme")
     st.subheader("Özgür Konuk - Ümit Can İnözü")
+    st.image("ozgur.jpeg", width=300, caption="İSTATİSTİK MEZUNLARI")
+
     st.subheader("Veri Girişi")    
     
     column_names = st.text_input("Sütun İsimleri (virgülle ayırın)", "Sütun1, Sütun2, Sütun3,Sütun4,Sütun5,Sütun6,Sütun7,Sütun8")
