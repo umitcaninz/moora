@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 
 def main():
-    st.set_page_config(page_title="INOZU")
+    st.set_page_config(page_title="INOZU-KONUK")
  
     st.title("Moora Yöntemi ile Karar Verme")
     st.subheader("Özgür Konuk - Ümit Can İnözü")
