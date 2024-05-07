@@ -5,7 +5,6 @@ import numpy as np
 def main():
     st.title("Moora Yöntemi ile Karar Verme")
     st.subheader("Özgür Konuk - Ümit Can İnözü")
-    st.image("ozgur.jpeg", width=300, caption="İSTATİSTİK MEZUNLARI")
     st.image("ozgur.jpeg", width=300, height=300, caption="İSTATİSTİK MEZUNLARI")
 
     st.subheader("Veri Girişi")    
