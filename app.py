@@ -53,7 +53,6 @@ def main():
         
         
         elif moora_method == "Moora Önem Katsayısı":
-            st.write("Moora Önem Katsayısı seçildi.")
             fayda_sutunlar = [col for col in column_names if col in fayda_sutunlari]
             maliyet_sutunlar = [col for col in column_names if col in maliyet_sutunlari]
             normalization_matrix = data.apply(lambda x: x / np.sqrt((x ** 2).sum()), axis=0)
@@ -65,7 +64,6 @@ def main():
 
         
         elif moora_method == "MOORA – Tam Çarpım Yöntemi":
-            st.write("MOORA – Tam Çarpım Yöntemi seçildi.")
             normalization_matrix = data.apply(lambda x: x / np.sqrt((x ** 2).sum()), axis=0)
             fayda_sutunlar = [col for col in column_names if col in fayda_sutunlari]
             maliyet_sutunlar = [col for col in column_names if col in maliyet_sutunlari]
