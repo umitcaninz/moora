@@ -4,7 +4,7 @@ import numpy as np
 
 def main():
     st.title("Moora Yöntemi ile Karar Verme")
-    st.title("Özgür Konuk - Ümit Can İnözü")
+    st.subheader("Özgür Konuk - Ümit Can İnözü")
     st.subheader("Veri Girişi")    
     
     column_names = st.text_input("Sütun İsimleri (virgülle ayırın)", "Sütun1, Sütun2, Sütun3,Sütun4,Sütun5,Sütun6,Sütun7,Sütun8")
