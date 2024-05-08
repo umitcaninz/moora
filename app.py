@@ -7,7 +7,7 @@ def main():
  
     st.title("Moora Yöntemi ile Karar Verme")
     st.subheader("Özgür Konuk - Ümit Can İnözü")
-    st.image("ozgur.jpeg", width=200,caption="İSTATİSTİK MEZUNLARI")
+    st.image("ozgur.jpeg", width=200,caption="İSTATİSTİK SON SINIF ÖĞRENCİLERİ")
     
     st.subheader("Veri Girişi")    
     
